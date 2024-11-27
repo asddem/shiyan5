@@ -1,0 +1,24 @@
+{
+  "name": "parcel-experiment",
+  "version": "1.0.0",
+  "description": "npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/index.html"
+  },
+  "author": "jinmiao",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "core-js": "^3.39.0",
+    "date-fns": "^4.1.0",
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
